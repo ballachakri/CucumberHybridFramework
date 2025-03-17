@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="75.753" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="71.612" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
@@ -60,16 +60,16 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Login with valid credentials" classname="Login functionality" time="7.596"/>
-  <testcase name="Login with invalid credentials" classname="Login functionality" time="8.36"/>
-  <testcase name="Login with valid email and invalid password" classname="Login functionality" time="5.315"/>
-  <testcase name="Login with invalid email and valid password" classname="Login functionality" time="5.446"/>
-  <testcase name="Login without providing any credentails" classname="Login functionality" time="5.95"/>
-  <testcase name="User creates an account only with mandatory fields" classname="Registration functionality" time="9.308"/>
-  <testcase name="User creates an account with all fields" classname="Registration functionality" time="7.244"/>
-  <testcase name="User creates a duplicate account" classname="Registration functionality" time="8.009"/>
-  <testcase name="User creates an account without filling any details" classname="Registration functionality" time="6.112"/>
-  <testcase name="User searches for a valid product" classname="Search functionality" time="3.948"/>
-  <testcase name="User searches for an invalid product" classname="Search functionality" time="3.565"/>
-  <testcase name="User searches without any product" classname="Search functionality" time="3.561"/>
+  <testcase name="Login with valid credentials" classname="Login functionality" time="7.324"/>
+  <testcase name="Login with invalid credentials" classname="Login functionality" time="5.355"/>
+  <testcase name="Login with valid email and invalid password" classname="Login functionality" time="6.064"/>
+  <testcase name="Login with invalid email and valid password" classname="Login functionality" time="5.737"/>
+  <testcase name="Login without providing any credentails" classname="Login functionality" time="5.206"/>
+  <testcase name="User creates an account only with mandatory fields" classname="Registration functionality" time="6.356"/>
+  <testcase name="User creates an account with all fields" classname="Registration functionality" time="9.295"/>
+  <testcase name="User creates a duplicate account" classname="Registration functionality" time="5.61"/>
+  <testcase name="User creates an account without filling any details" classname="Registration functionality" time="5.485"/>
+  <testcase name="User searches for a valid product" classname="Search functionality" time="4.226"/>
+  <testcase name="User searches for an invalid product" classname="Search functionality" time="4.139"/>
+  <testcase name="User searches without any product" classname="Search functionality" time="3.705"/>
 </testsuite>
