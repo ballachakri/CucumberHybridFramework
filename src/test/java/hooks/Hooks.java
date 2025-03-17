@@ -34,9 +34,9 @@ public class Hooks {
         String scenarioName = scenario.getName().replaceAll(" ", "_");
 
 //        if (scenario.isFailed()) {
-//            byte[] srcScreenshot = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
-//            scenario.attach(srcScreenshot, "image/png", scenarioName);
-//        }
+            byte[] srcScreenshot = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(srcScreenshot, "image/png", scenarioName);
+  //      }
 
         driver.quit();
 

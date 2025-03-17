@@ -1,3 +1,4 @@
+@register
 Feature: Registration functionality
 
   Scenario: User creates an account only with mandatory fields
